@@ -102,9 +102,6 @@ class _Home extends State<Home> {
                       ],
                     ),
                   ),
-                  SizedBox(height: MediaQuery.of(context).size.height / 20 ,),
-
-
                 ],
               ),
 
@@ -260,7 +257,7 @@ class _Home extends State<Home> {
                           ),
                         ),
                         SizedBox(
-                          height: MediaQuery.of(context).size.height / 40,
+                          height: MediaQuery.of(context).size.height / 28,
                         ),
                         SizedBox(
                             height: MediaQuery.of(context).size.height / 3.5,

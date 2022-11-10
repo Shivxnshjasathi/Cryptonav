@@ -42,7 +42,7 @@ class CoinCardDesign extends StatelessWidget {
                         color: Colors.transparent,
                         borderRadius: BorderRadius.circular(20),
                       ),
-                      height: 100,
+                      height: 70,
                       width: 100,
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -61,7 +61,7 @@ class CoinCardDesign extends StatelessWidget {
                             name,
                             style: const TextStyle(
                               color: Color(0xff252524),
-                              fontSize: 15,
+                              fontSize: 10,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -70,7 +70,7 @@ class CoinCardDesign extends StatelessWidget {
                           symbol,
                           style: const TextStyle(
                             color: Color(0xff252524),
-                            fontSize: 15,
+                            fontSize: 10,
                           ),
                         ),
                       ],
@@ -94,7 +94,7 @@ class CoinCardDesign extends StatelessWidget {
                                 '\$',
                                 style: TextStyle(
                                   color: Color(0xfff2f0f2),
-                                  fontSize: 20,
+                                  fontSize: 10,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -102,7 +102,7 @@ class CoinCardDesign extends StatelessWidget {
                                 price.toDouble().toString(),
                                 style: const TextStyle(
                                   color: Color(0xfff2f0f2),
-                                  fontSize: 20,
+                                  fontSize: 11,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
